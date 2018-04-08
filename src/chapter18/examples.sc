@@ -66,5 +66,5 @@ friends(Array(new Student), personToStudent)
 //class CovariantPair[+T](var first: T, var second: T) // Error
 
 class CovariantPair[+T](val first: T, val second: T) {
-  def replaceFirst(newFirst: T) = new CovariantPair[T](newFirst, second) // Error
+//  def replaceFirst(newFirst: T) = new CovariantPair[T](newFirst, second) // Error
 }
